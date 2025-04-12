@@ -1,13 +1,13 @@
-# sv
+# FullyHacks 2025 Intro to SvelteKit
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This repository contains the starter code for the FullyHacks 2025 Intro to SvelteKit Workshop! New to SvelteKit? Check out the [slides](https://docs.google.com/presentation/d/1B6Jm53jc4lVQ4W9B4DBD8b1w0UGOXFOdLhQ6HVEzbOE/edit?slide=id.g33e20ecf323_1_289#slide=id.g33e20ecf323_1_289) to learn about the framework!
 
-## Creating a project
+## Project Setup
 
 If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
-# create a new project in the current directory
+# Create a new project in the current directory
 npx sv create
 
 # create a new project in my-app
@@ -16,7 +16,7 @@ npx sv create my-app
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start the development server:
 
 ```bash
 npm run dev
@@ -25,14 +25,9 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+Edit the `/src/routes/+page.svelte` file and save the changes to see them reflected on the webpage.
 
-To create a production version of your app:
+---
 
-```bash
-npm run build
-```
+Brought to you with 🔥 by [Tomas](https://github.com/tomasohCHOM).
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
